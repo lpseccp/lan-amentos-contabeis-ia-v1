@@ -6,7 +6,7 @@ async function gerarLancamento() {
   const resposta = await fetch("https://api-inference.huggingface.co/models/bigscience/bloom", {
     method: "POST",
     headers: {
-      "Authorization": "Bearer YOUR_HUGGINGFACE_TOKEN", // Substituir depois
+      "Authorization": "Bearer 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", // Substituir depois
       "Content-Type": "application/json",
     },
     body: JSON.stringify({ inputs: `Transforme essa descrição em um lançamento contábil: ${input}` }),
